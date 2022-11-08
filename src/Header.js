@@ -3,6 +3,7 @@ import { faBookOpen } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import {Link} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 function Header() {
     return(
         <header className="hero">
@@ -13,18 +14,18 @@ function Header() {
                 <nav>
                     <ul>
                         
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/cases">Cases</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><HashLink smooth to="#">Home</HashLink></li>
+                        <li><HashLink smooth to="#about">About</HashLink></li>
+                        <li><HashLink smooth to="#cases">Cases</HashLink></li>
+                        <li><HashLink smooth to="#blog">Blog</HashLink></li>
+                        <li><HashLink smooth to="#contact">Contact</HashLink></li>
                     </ul>
                 </nav>
             </div>
             <div className="content">
                 <h1>The sky is the limit</h1>
                 <p>We provide various types of financial assistance</p> 
-                <Link to="/about" className="btn"><FontAwesomeIcon icon={faChevronRight} /> Read More</Link>
+                <Link to="about" className="btn"><FontAwesomeIcon icon={faChevronRight} /> Read More</Link>
             </div>
         </header>
     )
