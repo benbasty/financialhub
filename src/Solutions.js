@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import persons from '../src/img/persons.jpg';
 function Solutions() {
     return(
         <section className="solutions flex-columns">
             <div className="row">
                 <div className="column">
                     <div className="column-1">
-                        <img src="img/persons.jpg" alt=""/>
+                        <img src={persons} alt=""/>
                     </div>
                 </div>
                 <div className="column bg-primary">

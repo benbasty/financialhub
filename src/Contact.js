@@ -1,10 +1,11 @@
+import contact from '../src/img/contact.jpg'
 function Contact() {
     return(
         <section id="contact" className="contact flex-columns section-padding">
         <div className="row">
             <div className="column">
                 <div className="column-1">
-                    <img src="img/contact.jpg" alt=""/>
+                    <img src={contact} alt=""/>
                 </div>
             </div>
             <div className="column">
@@ -18,7 +19,7 @@ function Contact() {
                         <div className="form-control">
                             <label htmlFor="email">Email</label>
                             <input type="email" id="email" name="email" placeholder="Enter Email"/>
-                            
+
                         </div>
                         <div className="form-control">
                             <label htmlFor="phone">Phone</label>

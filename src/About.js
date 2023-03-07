@@ -11,7 +11,7 @@ function About() {
                     {/* <i className="fa-solid fa-building-columns fa-2xl"></i> */}
                     <div>
                         <h3>Investment Banking</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum voluptates corrupti atque saepe harum laborum.
                         </p>
                     </div>
@@ -21,7 +21,7 @@ function About() {
                     {/* <i classname="fa-solid fa-book-open-reader fa-2xl"></i> */}
                     <div>
                         <h3>Portfolio Manager</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Voluptatum voluptates corrupti atque saepe harum laborum.
                         </p>
                     </div>

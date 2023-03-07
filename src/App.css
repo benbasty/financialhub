@@ -79,7 +79,7 @@ nav {
 
 /* header */
 .hero {
-    background: url(../public/img/showcase.jpg) no-repeat center center/cover;
+    background: url(../src/img/showcase.jpg) no-repeat center center/cover;
     height: 100vh;
     position: relative;
     color: #fff;
@@ -144,6 +144,31 @@ nav {
 
 .blog {
     display: flex;
+}
+
+.containerblogpage {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerblogpage img {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.containerblogpage h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
+.containerblogpage p span {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.containerblogpage p {
+  font-size: 1rem;
 }
 
 .team img {
@@ -232,7 +257,7 @@ nav {
 
 /* blog */
 .blog {
-    background: url(../public/img/blogpost.jpg) no-repeat center center/cover;
+    background: url(../src/img/showcase.jpg) no-repeat center center/cover;
     height: 50vh;
     position: relative;
     color: #fff;
@@ -256,7 +281,7 @@ nav {
 }
 
 .post {
-    background: url(../public/img/post.jpg) no-repeat center center/cover;
+    background: url(../src/img/post.jpg) no-repeat center center/cover;
     height: 30vh;
 }
 .post::before {
@@ -374,7 +399,6 @@ nav {
 .flex-columns .column .column-1,
 .flex-columns .column .column-2 {
   height: 100%;
-  
 }
 
 .flex-columns .column-2 {

@@ -1,3 +1,6 @@
+import person1 from '../src/img/personone.jpg';
+import person2 from '../src/img/personthree.jpg';
+import person3 from '../src/img/persontwo.jpg';
 function Team() {
     return(
         <section id="team" className="team section-padding">
@@ -8,17 +11,17 @@ function Team() {
             </header>
             <div className="flex-items">
                 <div className="column">
-                    <img src="img/personone.jpg" alt=""/>
+                    <img src={person1} alt=""/>
                     <h4>John Doe</h4>
                     <p>President</p>
                 </div>
                 <div className="column">
-                    <img src="img/personthree.jpg" alt=""/>
+                    <img src={person3} alt=""/>
                     <h4>Jane Doe</h4>
                     <p>Vice President</p>
                 </div>
                 <div className="column">
-                    <img src="img/persontwo.jpg" alt=""/>
+                    <img src={person2} alt=""/>
                     <h4>Steve Smith</h4>
                     <p>Marketing Head</p>
                 </div>

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import blog from '../src/img/blog.jpg'
 function Blog() {
     return(
         <section id="blog" className="blog flex-columns flex-reverse">
             <div className="column">
-                <img src="img/blog.jpg" alt=""/>
+                <img src={blog} alt=""/>
             </div>
             <div className="column column-2 bg-secondary">
                 <h4>Nov 5, 2022</h4>
@@ -16,7 +17,7 @@ function Blog() {
                     quaerat quibusdam aspernatur ipsam eveniet est 
                     saepe eos odio quisquam.
                 </p>
-                <Link to="/blogPage" className="btn btn-outline">
+                <Link to="/financialhub/blogpage" className="btn btn-outline">
                     <FontAwesomeIcon icon={faChevronRight} /> Read Our Blog
                 </Link>
             </div>
