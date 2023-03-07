@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/financialhub/static/css/main.8f0fc50e.css",
+    "main.js": "/financialhub/static/js/main.8deea631.js",
+    "static/js/787.e36929c9.chunk.js": "/financialhub/static/js/787.e36929c9.chunk.js",
+    "static/media/showcase.jpg": "/financialhub/static/media/showcase.4297ab396ef51918ea11.jpg",
+    "static/media/cases7.jpg": "/financialhub/static/media/cases7.a8d4d692f569c360d82d.jpg",
+    "static/media/cases1.jpg": "/financialhub/static/media/cases1.118398e90bfaf306b7cd.jpg",
+    "static/media/persons.jpg": "/financialhub/static/media/persons.d037b4cf5ca199540774.jpg",
+    "static/media/cases4.jpg": "/financialhub/static/media/cases4.743b4135cbb0fb783973.jpg",
+    "static/media/cases2.jpg": "/financialhub/static/media/cases2.d0770c92d713748f4fe4.jpg",
+    "static/media/cases5.jpg": "/financialhub/static/media/cases5.71d42d5320956d7f7a6b.jpg",
+    "static/media/cases8.jpg": "/financialhub/static/media/cases8.65afcdf955f5f39da0da.jpg",
+    "static/media/cases6.jpg": "/financialhub/static/media/cases6.a6c9ecbf28251605981f.jpg",
+    "static/media/personthree.jpg": "/financialhub/static/media/personthree.095191d6a9460e915173.jpg",
+    "static/media/blog.jpg": "/financialhub/static/media/blog.1a7757f7e50e4d87953b.jpg",
+    "static/media/contact.jpg": "/financialhub/static/media/contact.e7bcfb8bc25aebd810cc.jpg",
+    "static/media/persontwo.jpg": "/financialhub/static/media/persontwo.bf9e3a7e213cc0b97bc5.jpg",
+    "static/media/cases3.jpg": "/financialhub/static/media/cases3.61675e0a00a192e60a5e.jpg",
+    "static/media/post.jpg": "/financialhub/static/media/post.69c85db65cbd1f19ebfb.jpg",
+    "static/media/personone.jpg": "/financialhub/static/media/personone.ea0ac06b2b04421cd350.jpg",
+    "static/media/cool person.jpeg": "/financialhub/static/media/cool person.721ef61d90a3f3212943.jpeg",
+    "index.html": "/financialhub/index.html",
+    "main.8f0fc50e.css.map": "/financialhub/static/css/main.8f0fc50e.css.map",
+    "main.8deea631.js.map": "/financialhub/static/js/main.8deea631.js.map",
+    "787.e36929c9.chunk.js.map": "/financialhub/static/js/787.e36929c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f0fc50e.css",
+    "static/js/main.8deea631.js"
+  ]
+}
